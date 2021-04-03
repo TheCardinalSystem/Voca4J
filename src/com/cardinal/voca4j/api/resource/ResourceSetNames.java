@@ -1,0 +1,10 @@
+package com.cardinal.voca4j.api.resource;
+
+public enum ResourceSetNames {
+	activityEntry_activityFeedEventNames, album_albumEditableFieldNames, artist_artistEditableFieldNames,
+	releaseEvent_releaseEventEditableFieldNames, song_songEditableFieldNames, songList_songListEditableFieldNames,
+	songList_songListFeaturedCategoryNames, tag_tagEditableFieldNames, user_ratedSongForUserSortRuleNames,
+	activityEntrySortRuleNames, albumCollectionStatusNames, albumMediaTypeNames, albumSortRuleNames,
+	artistSortRuleNames, artistTypeNames, contentLanguageSelectionNames, discTypeNames, entryTypeNames,
+	eventCategoryNames, eventSortRuleNames, songListSortRuleNames, songSortRuleNames, songTypeNames, userGroupNames;
+}

@@ -1,0 +1,7 @@
+# Voca4J
+
+This project is a Java client-side wrapper for the [VocaDB API](https://vocadb.net/swagger/ui/index). This project was started in September of 2020 and finally completed on January 31st, 2021 at 7:50pm EST. There are currently no available examples. Take a look at [Voca4J.java](https://github.com/TheCardinalSystem/Voca4J/blob/main/src/com/cardinal/voca4j/Voca4J.java) and [BuilderProvider.java](https://github.com/TheCardinalSystem/Voca4J/blob/main/src/com/cardinal/voca4j/impl/BuilderProvider.java) to get started. To find the appropriate object wrapper for each request type, take a look a the [general adapters](https://github.com/TheCardinalSystem/Voca4J/blob/main/src/com/cardinal/voca4j/Voca4J.java#L105) or look in the class definition for a [ResponseDeserializer](https://github.com/TheCardinalSystem/Voca4J/blob/main/src/com/cardinal/voca4j/api/ResponseDeserializer.java) implementation. Each class was tested after it was created until it functioned normally. No further tests will be conducted. A test suite will not be provided, nor will one be created. While this may be a generally poor practice in software development, the VocaDB administrators have requested that we do not overwork their servers.
+
+# Implementation
+
+This will become available on Maven Central once I get a domain up and running. For now, you will have to manually download the jars from the [releases page](https://github.com/TheCardinalSystem/Voca4J/releases).
